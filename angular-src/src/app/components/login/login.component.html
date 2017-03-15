@@ -1,3 +1,12 @@
-<p>
-  login works!
-</p>
+<h2 class="page-header">Войти</h2>
+<form (submit)="onLoginSubmit()">
+    <div class="form-group">
+        <label>Логин</label>
+        <input type="text" class="form-control" [(ngModel)]="username" name="username">
+    </div>
+    <div class="form-group">
+        <label>Пароль</label>
+        <input type="password" class="form-control" [(ngModel)]="password" name="password">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Войти">
+</form>
