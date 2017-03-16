@@ -17,6 +17,6 @@
     "passport":"*",
     "passport-jwt":"*"
   },
-  "author": "Aleksey Belchenkov",
+  "author": "Brad Traversy",
   "license": "ISC"
 }

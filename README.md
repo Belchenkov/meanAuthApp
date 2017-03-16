@@ -1,2 +1,22 @@
-# meanAuthApp
-MEAN stack authentication app (Node.js &amp; Express, REST API, Passport,js, MongoDB &amp; Mongoose, JWT Authentication, Angular 2 &amp; Angular-CLI, Angular2-JWT, Angular 2 Flash Messages, MEAN Deployment)
+# MEANauthapp
+
+Complete MEAN stack application with authentication using json web tokens
+
+### Version
+1.0.0
+
+## Usage
+
+
+### Installation
+
+Install the dependencies
+
+```sh
+$ npm install
+```
+Run app
+
+```sh
+$ npm start
+```
