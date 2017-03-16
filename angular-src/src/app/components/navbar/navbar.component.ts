@@ -20,7 +20,7 @@ export class NavbarComponent implements OnInit {
 
   onLogoutClick(){
     this.authService.logout();
-    this.flashMessage.show('You are logged out', {
+    this.flashMessage.show('Выполнен выход из приложения ', {
       cssClass:'alert-success',
       timeout: 3000
     });
